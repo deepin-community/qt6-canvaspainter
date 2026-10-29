@@ -1,22 +1,176 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: qtcanvaspainter-everywhere-src
+Source: https://download.qt.io/archive/qt/*/submodules/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright: 2013, Mikko Mononen memon@inside.org
+           2015-2018, QUIt Coding <info@quitcoding.com>
+           2025, The Qt Company Ltd.
+License: GPL-3
+
+Files: coin/axivion/start_analysis.sh
+       tools/qcshadergen/qcshadergen.cpp
+       tools/qcshadergen/shader_includes/common.glsl
+       tools/qcshadergen/shader_includes/customfrag.glsl
+       tools/qcshadergen/shader_includes/customvert.glsl
+Copyright: 2025-2026, The Qt Company Ltd
+License: GPL-3 with Qt-1.0 exception
+
+Files: CMakeLists.txt
+       examples/CMakeLists.txt
+       examples/canvaspainter/CMakeLists.txt
+       examples/canvaspainter/compacthealth/CMakeLists.txt
+       examples/canvaspainter/compacthealth/ecggraph.cpp
+       examples/canvaspainter/compacthealth/ecggraph.h
+       examples/canvaspainter/compacthealth/main.cpp
+       examples/canvaspainter/compacthealth/mainwindow.cpp
+       examples/canvaspainter/compacthealth/mainwindow.h
+       examples/canvaspainter/compacthealth/painterwindow.cpp
+       examples/canvaspainter/compacthealth/painterwindow.h
+       examples/canvaspainter/compacthealth/theme.cpp
+       examples/canvaspainter/compacthealth/theme.h
+       examples/canvaspainter/gallery/CMakeLists.txt
+       examples/canvaspainter/gallery/TopBar.qml
+       examples/canvaspainter/gallery/galleryitem.cpp
+       examples/canvaspainter/gallery/galleryitem.h
+       examples/canvaspainter/gallery/galleryitemrenderer.cpp
+       examples/canvaspainter/gallery/galleryitemrenderer.h
+       examples/canvaspainter/gallery/main.cpp
+       examples/canvaspainter/gallery/main.qml
+       examples/canvaspainter/hellowidget/CMakeLists.txt
+       examples/canvaspainter/hellowidget/canvaswidget.cpp
+       examples/canvaspainter/hellowidget/canvaswidget.h
+       examples/canvaspainter/hellowidget/main.cpp
+       src/CMakeLists.txt
+       src/canvaspainter/CMakeLists.txt
+       src/canvaspainter/doc/snippets/item-ex-1.cpp
+       src/canvaspainter/doc/snippets/paintdriver-ex-1.cpp
+       src/canvaspainter/doc/snippets/renderer-ex-1.cpp
+       src/canvaspainter/doc/snippets/widget-canvas-ex-1.cpp
+       src/canvaspainter/doc/snippets/widget-ex-1.cpp
+       tests/CMakeLists.txt
+       tests/auto/qcbrush/CMakeLists.txt
+       tests/auto/qcpainterpath/CMakeLists.txt
+       tests/auto/qcrhiplumbing/CMakeLists.txt
+       tests/manual/2dpainting_port/CMakeLists.txt
+       tests/manual/CMakeLists.txt
+       tests/manual/hellorhi/CMakeLists.txt
+       tests/manual/hellorhi2/CMakeLists.txt
+       tests/manual/imagetester/CMakeLists.txt
+       tests/manual/itemtest/CMakeLists.txt
+       tests/manual/qcpainterbench/CMakeLists.txt
+       tests/manual/rendernode/CMakeLists.txt
+       tests/manual/widgettest/CMakeLists.txt
+       tools/CMakeLists.txt
+       tools/qcshadergen/CMakeLists.txt
+       tools/qcshadergen/Qt6CanvasPainterMacros.cmake
+Copyright: 2025, The Qt Company Ltd.
+           2015, QUIt Coding <info@quitcoding.com>
+License: BSD-3-Clause
+
+Files: examples/canvaspainter/compacthealth/doc/src/qtcanvaspainter-examples-compacthealth.qdoc
+       examples/canvaspainter/gallery/doc/src/qtcanvaspainter-examples-gallery.qdoc
+       examples/canvaspainter/hellowidget/doc/src/qtcanvaspainter-examples-hellowidget.qdoc
+       src/canvaspainter/doc/src/qtcanvaspainter-cppmodule.qdoc
+       src/canvaspainter/doc/src/qtcanvaspainter-examples.qdoc
+       src/canvaspainter/doc/src/qtcanvaspainter-index.qdoc
+Copyright: 2025, The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+Files: examples/canvaspainter/gallery/fonts/Pacifico.ttf
+       tests/manual/qcpainterbench/qml/fonts/Roboto-Regular.ttf
+Copyright: 2018 The Pacifico Project Authors
+           2011 The Roboto Project Authors
+License: OFL-1.1
+
+Files: debian/*
+Copyright: 2026 Patrick Franz <deltaone@debian.org>
+License: GPL-3
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+
+License: GPL-3 with Qt-1.0 exception
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+ .
+ The Qt Company GPL Exception 1.0
+ Exception 1:
+ .
+ As a special exception you may create a larger work which contains the
+ output of this application and distribute that work under terms of your
+ choice, so long as the work is not otherwise derived from or based on
+ this application and so long as the work does not in itself generate
+ output that contains the output from this application in its original
+ or modified form.
+ .
+ Exception 2:
+ .
+ As a special exception, you have permission to combine this application
+ with Plugins licensed under the terms of your choice, to produce an
+ executable, and to copy and distribute the resulting executable under
+ the terms of your choice. However, the executable must be accompanied
+ by a prominent notice offering all users of the executable the entire
+ source code to this application, excluding the source code of the
+ independent modules, but including any changes you have made to this
+ application, under the terms of this license.
+
+License: BSD-3-Clause
+ You may use this file under the terms of the BSD license as follows:
+ .
+ "Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of The Qt Company Ltd nor the names of its
+     contributors may be used to endorse or promote products derived
+     from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+
+License: GFDL-NIV-1.3
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
+
+License: OFL-1.1
+ On Debian systems, the complete text of the SIL OPEN FONT LICENSE
+ Version 1.1 can be found in /usr/share/common-licenses/OFL-1.1.
