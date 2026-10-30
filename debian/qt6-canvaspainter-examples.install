@@ -1,3 +1,4 @@
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/canvaspainter/compacthealth/bin/compacthealthexample
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/canvaspainter/gallery/bin/qcgalleryexample
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/canvaspainter/hellowidget/bin/canvaspainterhellowidget
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/canvaspainter/canvas2dtester/bin/canvas2dtesterexample
