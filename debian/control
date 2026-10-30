@@ -29,6 +29,30 @@ Description: Qt 6 Canvas Painter library
  .
  This package contains the Qt 6 Canvas Painter library.
 
+Package: libqt6canvas2d6
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Qt 6 Canvas2D QML module library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the backing library of the Qt Canvas2D QML module.
+
+Package: qml6-module-qtcanvas2d
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Qt 6 Canvas2D QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Canvas2D QML module.
+
 Package: qt6-canvaspainter-tools
 Section: libdevel
 Architecture: any
@@ -47,6 +71,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt6canvaspainter6 (= ${binary:Version}),
+         libqt6canvas2d6 (= ${binary:Version}),
+         qml6-module-qtcanvas2d (= ${binary:Version}),
          qt6-canvaspainter-tools (= ${binary:Version}),
          qt6-base-dev,
          ${misc:Depends},

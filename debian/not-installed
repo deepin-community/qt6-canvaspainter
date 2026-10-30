@@ -1,13 +1,2 @@
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtCanvasPainter/6.*/QtCanvasPainter/private/*_p.h
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_canvaspainter_private.pri
-usr/lib/x86_64-linux-gnu/libQt6Canvas2D.prl
-usr/lib/x86_64-linux-gnu/libQt6Canvas2D.so
-usr/lib/x86_64-linux-gnu/libQt6Canvas2D.so.6
-usr/lib/x86_64-linux-gnu/libQt6Canvas2D.so.6.12.0
-usr/lib/x86_64-linux-gnu/qt6/examples/canvaspainter/canvas2dtester/bin/canvas2dtesterexample
-usr/lib/x86_64-linux-gnu/qt6/metatypes/qt6canvas2dprivate_metatypes.json
-usr/lib/x86_64-linux-gnu/qt6/mkspecs/modules/qt_lib_canvas2d_private.pri
-usr/lib/x86_64-linux-gnu/qt6/modules/Canvas2DPrivate.json
-usr/lib/x86_64-linux-gnu/qt6/qml/QtCanvas2D/libcanvas2dplugin.so
-usr/lib/x86_64-linux-gnu/qt6/qml/QtCanvas2D/plugins.qmltypes
-usr/lib/x86_64-linux-gnu/qt6/qml/QtCanvas2D/qmldir
